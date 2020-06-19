@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web-customer-tracker:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web-customer-tracker/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-customer-tracker" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 5.4.11-5.4.11" />
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="library" level="project" name="mysql:mysql-connector-java:8.0.20" />
+          <element id="library" level="project" name="jstl:jstl:1.2" />
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
+          <element id="library" level="project" name="com.mchange:c3p0:0.9.5.2" />
+          <element id="library" level="project" name="org.hibernate:hibernate-c3p0:5.2.3.Final" />
+          <element id="library" level="project" name="com.mchange:mchange-commons-java:0.2.20" />
+          <element id="library" level="project" name="com.sun.activation:javax.activation:1.2.0" />
+          <element id="library" level="project" name="javax.xml.bind:jaxb-api:2.3.1" />
+          <element id="library" level="project" name="com.sun.xml.bind:jaxb-core:2.3.0.1" />
+          <element id="library" level="project" name="com.sun.xml.bind:jaxb-impl:2.3.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
